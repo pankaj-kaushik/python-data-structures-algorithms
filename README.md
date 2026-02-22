@@ -1,9 +1,5 @@
 # 🐍 Python Data Structures and Algorithms (DSA) Labs
 
-[![GitHub license](https://img.shields.io/github/license/pankaj-kaushik/python-data-structures-algorithms)](https://github.com/pankaj-kaushik/python-data-structures-algorithms/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/pankaj-kaushk/python-data-structures-algorithms)](https://github.com/pankaj-kaushik/python-data-structures-algorithms/stargazers)
-[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org)
-
 Welcome to the **Python Data Structures and Algorithms Labs**! This repository is a comprehensive, open-source library of fundamental programming concepts implemented from scratch in Python. Whether you are prepping for a **FAANG** interview or sharpening your problem-solving skills, this repo serves as your digital playground.
 
 This repository contains **small, focused working code examples**, each living in its own folder, designed to:
