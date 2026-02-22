@@ -33,13 +33,80 @@ By exploring this repository, you will master:
 ## 🗺 Learning Roadmap
 Follow this logical path to master DSA systematically:
 
+
 ```mermaid
-graph TD
-    A[Basics: Big O & Arrays] --> B[Linear: Linked Lists, Stacks, Queues]
-    B --> C[Non-Linear: Trees & BST]
-    C --> D[Advanced: Graphs & Hash Tables]
-    D --> E[Algorithms: Sorting & Searching]
-    E --> F[Mastery: Dynamic Programming & Recursion]
+flowchart TD
+
+    A[Start DSA Preparation 🚀] --> B[Complexity Analysis ⏱️]
+    B --> B1[Big-O Notation]
+    B --> B2[Time vs Space Tradeoff]
+
+    A --> C[Arrays & Strings 📦]
+    C --> C1[Two Pointers]
+    C --> C2[Sliding Window]
+    C --> C3[Prefix Sum]
+
+    A --> D[Recursion & Backtracking 🔁]
+    D --> D1[Subsets]
+    D --> D2[Permutations]
+    D --> D3[Combination Problems]
+
+    A --> E[Linked List 🔗]
+    E --> E1[Fast & Slow Pointer]
+    E --> E2[Cycle Detection]
+    E --> E3[Reversal]
+
+    A --> F[Stack & Queue 🥞]
+    F --> F1[Monotonic Stack]
+    F --> F2[LRU Cache]
+    F --> F3[Deque Applications]
+
+    A --> G[Binary Search 🔍]
+    G --> G1[Search Space Reduction]
+    G --> G2[Binary Search on Answer]
+
+    A --> H[Hashing 🗂️]
+    H --> H1[HashMap]
+    H --> H2[Frequency Counting]
+    H --> H3[Set Based Problems]
+
+    A --> I[Trees 🌳]
+    I --> I1[DFS]
+    I --> I2[BFS]
+    I --> I3[Binary Search Tree]
+    I --> I4[Lowest Common Ancestor]
+
+    A --> J[Heap / Priority Queue 🏔️]
+    J --> J1[Top K Elements]
+    J --> J2[Merge K Sorted Lists]
+
+    A --> K[Graphs 🌐]
+    K --> K1[BFS / DFS]
+    K --> K2[Topological Sort]
+    K --> K3[Dijkstra]
+    K --> K4[Union Find]
+
+    A --> L[Dynamic Programming 🧠]
+    L --> L1[1D DP]
+    L --> L2[2D DP]
+    L --> L3[Knapsack]
+    L --> L4[LIS]
+    L --> L5[DP on Trees]
+
+    A --> M[Greedy Algorithms 💡]
+    M --> M1[Intervals]
+    M --> M2[Activity Selection]
+
+    A --> N[Bit Manipulation ⚡]
+    N --> N1[XOR Tricks]
+    N --> N2[Bit Masking]
+
+    A --> O[Advanced Topics 🏆]
+    O --> O1[Trie]
+    O --> O2[Segment Tree]
+    O --> O3[Fenwick Tree]
+
+    style A fill:#ffcc00,stroke:#333,stroke-width:2px
 ```
 
 ## 📂 Repository Structure
