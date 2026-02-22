@@ -1,6 +1,10 @@
-# 🧪 Python DSA Labs
+# 🐍 Python Data Structures and Algorithms (DSA) Labs
 
-Python DSA Labs is a personal learning repository containing implementations of Data Structures and Algorithms in Python created for experimentation, practice, and concept building.
+[![GitHub license](https://img.shields.io/github/license/YOUR_USERNAME/python-data-structures-algorithms)](https://github.com/pankaj-kaushik/python-data-structures-algorithms/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/pankaj-kaushk/python-data-structures-algorithms)](https://github.com/pankaj-kaushik/python-data-structures-algorithms/stargazers)
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org)
+
+Welcome to the **Python Data Structures and Algorithms Labs**! This repository is a comprehensive, open-source library of fundamental programming concepts implemented from scratch in Python. Whether you are prepping for a **FAANG** interview or sharpening your problem-solving skills, this repo serves as your digital playground.
 
 This repository contains **small, focused working code examples**, each living in its own folder, designed to:
 - understand conceptual concept
@@ -9,7 +13,38 @@ This repository contains **small, focused working code examples**, each living i
 - learn problem-solving techniques
 - understand complexity analysis
 
-⚠️ This repo is **not production-ready**. The goal is learning by building.
+
+## 🎯 Purpose of Repo
+The goal of this project is to bridge the gap between theoretical computer science and practical Python implementation. Unlike standard libraries, these scripts are written for **readability and educational clarity**, helping you understand the "why" behind every line of code.
+
+> ⚠️ This repo is **not production-ready**. The goal is learning by building.
+
+## 📚 What You Will Learn
+By exploring this repository, you will master:
+* 🛠 **Core Data Structures:** Linked Lists, Stacks, Queues, Trees, and Graphs.
+* ⚡ **Algorithm Efficiency:** Understanding Big O Notation and time-space complexity.
+* 🔍 **Search & Sort:** From Binary Search to QuickSort and MergeSort.
+* 🧠 **Advanced Patterns:** Dynamic Programming, Greedy Algorithms, and Backtracking.
+* 🐍 **Pythonic Best Practices:** Writing clean, PEP 8 compliant algorithmic code.
+
+
+## 👥 Who Should Use This Repo
+* **Students:** Complement your CS coursework with hands-on Python examples.
+* **Job Seekers:** Technical interview preparation for LeetCode, HackerRank, and CodeSignal.
+* **Self-Taught Devs:** Build a solid foundation in computational thinking.
+* **Open Source Contributors:** Looking to refine implementations or add new algorithms.
+
+## 🗺 Learning Roadmap
+Follow this logical path to master DSA systematically:
+
+```mermaid
+graph TD
+    A[Basics: Big O & Arrays] --> B[Linear: Linked Lists, Stacks, Queues]
+    B --> C[Non-Linear: Trees & BST]
+    C --> D[Advanced: Graphs & Hash Tables]
+    D --> E[Algorithms: Sorting & Searching]
+    E --> F[Mastery: Dynamic Programming & Recursion]
+```
 
 ## 📂 Repository Structure
 
@@ -36,7 +71,7 @@ python-dsa-labs/
 |   ├── easy/
 |   ├── medium/
 |   └── hard/
-|
+├── ...
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -46,21 +81,6 @@ python-dsa-labs/
 - is self-contained
 - has its own dependencies
 - can be run independently
-
-## 🧠 What You’ll Learn from This Repo
-
-By going through these experiments, you will learn:
-
-- Core Data Structures implementation from scratch
-- Standard algorithmic techniques
-- Interview-oriented problem-solving approaches
-- Complexity analysis (Time & Space)
-- Clean and structured Python coding practices
-
-**Perfect for:**
-
-- Beginners/Undergraduate learning DSA
-- Software engineers preparing for interview
 
 ## 🛠 Tech Stack
 Common stack used across experiments:
@@ -72,8 +92,8 @@ Common stack used across experiments:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/python-dsa-labs.git
-cd python-dsa-labs
+git clone https://github.com/pankaj-kaushik/python-data-structures-algorithms.git
+cd python-data-structures-algorithms
 ```
 ### Step 2: Create a Virtual Environment
 ```bash
@@ -133,8 +153,11 @@ Each implementation includes:
 Problem: Binary Search
 Approach: Divide and conquer
 Time Complexity: O(log n)
-Space Complexity: O(1
+Space Complexity: O(1)
 ```
+
+## ⚠️ Disclaimer
+This repository is for **educational purposes only**. While these implementations are optimized for learning, they may not always be the most performant for production environments where Python's built-in libraries (like collections.deque or heapq) are preferred. Always analyze your specific use case!
 
 ## ⭐ Support
 
@@ -144,4 +167,4 @@ If you find this repository useful:
 - Modify experiments
 - Build your own labs
 
-**Happy Learning 🧪🚀**
+**Happy Coding 🧪🚀**
